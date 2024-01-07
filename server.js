@@ -5,6 +5,7 @@ import pkg from "@deepgram/sdk";
 import { fileURLToPath } from "url";
 import { createServer } from "http";
 import { Server } from "socket.io";
+import fetch from "node-fetch";
 import models from "./models.js";
 
 const __filename = fileURLToPath(import.meta.url);
